@@ -84,6 +84,7 @@ const PostReview = () => {
     let carmodelsarr = Array.from(retobj.CarModels)
     setCarmodels(carmodelsarr)
   }
+
   useEffect(() => {
     get_dealer();
     get_cars();
